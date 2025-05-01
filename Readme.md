@@ -1,6 +1,3 @@
-# DPDzero Data Ops Assignment
-
-## Project Overview
 This repository contains a simplified end-to-end data pipeline for daily loan collection call campaigns. The goal is to fetch daily CSV data dumps, clean and validate the data, transform it by computing key performance metrics for each agent, and report the results both as a CSV file and a Slack-style summary.
 
 ## Features
