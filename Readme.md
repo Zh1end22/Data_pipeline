@@ -52,9 +52,9 @@ project_root/
 │   ├── agent_roster.csv
 │   └── disposition_summary.csv
 ├── notebooks/
-│   └── run_pipeline.ipynb   # Jupyter notebook with full pipeline code
+│   └── data_pipeline.ipynb   # Jupyter notebook with full pipeline code
 ├── scripts/
-│   └── run_pipeline.py      # Modular CLI script (optional)
+│   └── data_pipeline.py      # Modular CLI script (optional)
 ├── README.md
 └── requirements.txt
 ```
@@ -63,7 +63,7 @@ project_root/
 ### Jupyter Notebook
 1. Open the notebook:
    ```bash
-   jupyter notebook notebooks/run_pipeline.ipynb
+   jupyter notebook notebooks/data_pipeline.ipynb
    ```
 2. Adjust file paths at the top of the notebook if needed.
 3. Run all cells to:
@@ -76,7 +76,7 @@ project_root/
 ### CLI Script
 If using the optional CLI script:
 ```bash
-python scripts/run_pipeline.py \
+python scripts/data_pipeline.py \
   --call-logs data/call_logs.csv \
   --roster data/agent_roster.csv \
   --dispo data/disposition_summary.csv \
